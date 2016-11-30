@@ -1,0 +1,5 @@
+def dividable_by_three():
+  for num in range(1, 500):
+    if num % 3 == 0:
+      print (num)
+dividable_by_three()
