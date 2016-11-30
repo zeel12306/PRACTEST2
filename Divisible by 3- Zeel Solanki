@@ -1,0 +1,7 @@
+"""Write a function that finds all the numbers from 1 to 500 that are divisible by 3."""
+n = range(0, 501)
+def funct(num):
+  for x in num:
+    if x % 3 == 0:
+      print (x)
+print (funct(n))
